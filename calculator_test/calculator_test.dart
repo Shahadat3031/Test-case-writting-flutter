@@ -64,4 +64,12 @@ import 'package:test_case_writting/Calculator.dart';
       });
     });
     */
+
+    group("pi", (){
+      test("emits [3, 3.1, 3.14, 3.141, 3.1415]", (){
+        emitsInOrder([3,3.1,3.14,3.141,3.1415]);
+      });
+    });
+
+
   }
